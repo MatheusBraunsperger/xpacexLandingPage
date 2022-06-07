@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/img/backgroundLp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+
+}
+.main-container{
+    background-color: rgba(26, 26, 26, 0.541);
+
+    margin: 60px auto 10px auto;
+    width: 420px;
+    border-radius: 6px;
+}
+.container-custom{
+    margin: 10px auto 10px auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.img-custom{
+    padding: 20px 0px 20px 0px;
+    width: 80%;
+}
+
+.span-name-custom{
+    width: 108px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button
+    button{
+        margin: 10px;
+}
+
+.gender-select, .training-select, .attributes-select, .name-input-div label, .email-div label{
+    color:white;
+}
+
+.input-group{
+    padding: 7px;
+}
+
+#label-text{
+    padding: 7px;
+}
+
+.footer-container{
+    font-size: 14px;
+    color:white;
+    margin: 60px auto 10px auto;
+    width: 420px;
+    border-radius: 6px;
+}
